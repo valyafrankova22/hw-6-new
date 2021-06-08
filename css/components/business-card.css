@@ -1,0 +1,45 @@
+.business-card {
+    background-color: var(--main-bg-color);
+    padding-bottom: 40px;
+}
+
+h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.about-organisation {
+    display: flex;
+    width: var(--content-width);
+    margin: 0 auto;
+
+}
+
+.info-left, .photo-right {
+    width: 50%;
+}
+
+.info-left p {
+    color: #656363;
+    font-size: 17px;
+    max-width: 500px;
+    line-height: 25px;
+}
+
+.photo-right img {
+    width: 100%;
+}
+
+.contact-us {
+    display: inline-block;
+    margin: 20px 0 0;
+    padding: 15px 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    border: 1px red;
+    background-color: red;
+    border-radius: 5px;
+    cursor: pointer;
+}

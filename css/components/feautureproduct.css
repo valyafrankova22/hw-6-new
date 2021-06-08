@@ -1,0 +1,57 @@
+.feauture-wrapper {
+    width: var(--content-width);
+    margin: 0 auto;
+
+}
+
+.feauture-wrapper h2 {
+    text-align: center;
+}
+
+.feauture-wrapper p {
+    text-align: center;
+}
+
+.redline {
+    width: 15%;
+    margin: 0 auto;
+    height: 8px;
+    background-color: red;
+    border-radius: 15px;
+}
+
+.windowsmenu {
+    margin: 50px;
+}
+.menu2 {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 20px;
+}
+
+.menu2 a {
+    padding: 1em;
+    display: block;
+    color: black;
+    border-right: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: color.3s;
+}
+
+.menu2 a:hover {
+    color: var(--menu-bg-color);
+    background-color: transparent;
+}
+
+.windowsflex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.krem {
+    width: 25%;
+    margin-bottom: 10px;
+}

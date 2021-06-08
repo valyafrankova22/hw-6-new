@@ -1,0 +1,54 @@
+h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    margin: 0;
+    font-weight: bolder;
+}
+
+.services {
+     padding: 50px 10px;
+ }
+
+.company-wrapper {
+    width: var(--content-width);
+    display: flex;
+    margin: 0 auto;
+    border-bottom: 1px solid gray;
+    padding-bottom: 40px;
+}
+
+.left-block,
+.right-block {
+    width: 50%;
+}
+
+.left-block {
+    padding-right: 50px;
+}
+.left-block p {
+    max-width: 500px;
+}
+
+.right-block {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.block {
+    width: 50%;
+    box-sizing: border-box;
+    padding-right: 15px;
+}
+
+.more {
+    display: inline-block;
+    margin: 20px 0 0;
+    padding: 15px 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: red;
+    border: 1px solid red;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
