@@ -1,15 +1,12 @@
-.feauture-wrapper {
-    width: var(--content-width);
-    margin: 0 auto;
-
-}
-
 .feauture-wrapper h2 {
     text-align: center;
 }
 
 .feauture-wrapper p {
     text-align: center;
+    font-size: 17px;
+    line-height: 25px;
+    padding: 15px 0;
 }
 
 .redline {

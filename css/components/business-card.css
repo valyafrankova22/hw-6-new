@@ -7,13 +7,11 @@ h1 {
     font-size: 50px;
     text-transform: uppercase;
     margin-top: 0;
+    font-weight: 600;
 }
 
 .about-organisation {
     display: flex;
-    width: var(--content-width);
-    margin: 0 auto;
-
 }
 
 .info-left, .photo-right {
@@ -25,6 +23,7 @@ h1 {
     font-size: 17px;
     max-width: 500px;
     line-height: 25px;
+    padding: 15px 0;
 }
 
 .photo-right img {
