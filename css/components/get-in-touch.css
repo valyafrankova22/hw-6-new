@@ -1,0 +1,77 @@
+.get-in-touch {
+    margin: 50px 0;
+    padding-bottom: 50px;
+}
+
+.left-get,
+.right-get {
+    width: 50%;
+}
+.left-get {
+    padding-right: 20px;
+}
+.right-get {
+    background-color: black;
+    color: white;
+}
+.redline-3 {
+    max-width: 150px;
+    height: 5px;
+    background-color: red;
+    border-radius: 15px;
+}
+
+.get-in-touch h2 {
+    padding-bottom: 20px;
+}
+.get-in-touch p {
+    padding-bottom: 20px;
+    max-width: 550px;
+    font-size: 17px;
+    line-height: 20px
+}
+
+.get-name {
+    margin-bottom: 40px;
+}
+.name-form {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.name-form input {
+    display: block;
+    padding:15px 35px;
+    border-radius: 10px;
+    background-color: silver;
+}
+
+.get-in-touch .left-get textarea {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    background-color: silver;
+    padding: 10px;
+}
+.get-in-touch button {
+    display: inline-block;
+    margin: 20px 0 0;
+    padding: 15px 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: white;
+    border: 1px red;
+    background-color: red;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.get-in-touch .right-get {
+    padding: 80px 40px;
+}
+
+.get-in-touch .right-get h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+}

@@ -1,24 +1,31 @@
-.feauture-wrapper h2 {
+.feautureproduct {
+    margin-bottom: 70px;
+}
+
+.feautureproduct h2 {
     text-align: center;
 }
 
-.feauture-wrapper p {
+.feautureproduct p {
     text-align: center;
-    font-size: 17px;
+    font-size: 20px;
     line-height: 25px;
     padding: 15px 0;
 }
+.feauture-text {
+    margin-bottom: 50px;
+}
 
 .redline {
-    width: 15%;
+    max-width: 150px;
     margin: 0 auto;
-    height: 8px;
+    height: 5px;
     background-color: red;
     border-radius: 15px;
 }
 
 .windowsmenu {
-    margin: 50px;
+    margin-bottom: 50px;
 }
 .menu2 {
     display: flex;
@@ -43,12 +50,10 @@
     background-color: transparent;
 }
 
-.windowsflex {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.krem {
+.item1 {
     width: 25%;
-    margin-bottom: 10px;
+    padding: 5px;
+}
+.feautureproduct .row .item1 img {
+    width: 100%;
 }

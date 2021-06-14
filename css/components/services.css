@@ -6,7 +6,7 @@ h2 {
 }
 
 .services {
-     padding: 50px 10px;
+     padding: 50px 0;
  }
 .services p {
     font-size: 17px;
@@ -18,8 +18,7 @@ h2 {
     font-weight: 600;
 }
 
-.company-wrapper {
-    display: flex;
+.services .container {
     border-bottom: 1px solid gray;
     padding-bottom: 40px;
 }
@@ -44,6 +43,12 @@ h2 {
 .block {
     width: 50%;
     padding-right: 15px;
+}
+.block img {
+    padding-bottom: 8px;
+}
+.block h3 {
+    padding-bottom: 5px;
 }
 
 .more {

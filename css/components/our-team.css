@@ -1,28 +1,27 @@
 .our-team {
     margin: 40px 0;
 }
-.our-team p{
+.our-team .team-text p{
     font-size: 17px;
     line-height: 25px;
-    padding: 15px 0 0 0;
-}
-
-.team p {
+    padding-bottom: 25px;
     max-width: 500px;
 }
-.team h2 {
+
+.our-team h2 {
     font-size: 35px;
     padding-bottom: 15px;
 }
-.team-wrapper {
-    display: flex;
+.team-text {
+    margin-bottom: 50px;
+}
+.our-team .row {
     align-items: flex-start;
 }
 
 .team-photos {
     display: flex;
     margin-top: 0;
-    padding-top: 4px;
 }
 .t-photo {
     width: 25%;
@@ -43,9 +42,13 @@
     font-size: 30px;
     font-weight: 600;
     text-transform: uppercase;
+    padding-bottom: 10px;
 }
 .team-right p {
+    font-size: 17px;
+    line-height: 25px;
     max-width: 500px;
+    padding-bottom: 10px;
 }
 
 .team-left img,
@@ -77,9 +80,8 @@
     left: 0;
 }
 .redline-team {
-    width: 15%;
-    margin: 25px 0;
-    height: 8px;
+    max-width: 150px;
+    height: 5px;
     background-color: red;
     border-radius: 15px;
 }
