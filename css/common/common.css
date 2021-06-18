@@ -1,9 +1,9 @@
-.container {
+ .container {
     width: var(--content-width);
     margin: 0 auto;
     padding: 0 15px;
 }
-.row {
+.row:not(.dropdown) {
     display: flex;
     flex-wrap: wrap;
 }

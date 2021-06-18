@@ -11,24 +11,27 @@
     padding-right: 20px;
 }
 .right-get {
-    background-color: black;
+    background-color: var(--bg-black);
     color: white;
 }
 .redline-3 {
     max-width: 150px;
     height: 5px;
-    background-color: red;
+    background-color: #ff3f40;
     border-radius: 15px;
 }
 
 .get-in-touch h2 {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 .get-in-touch p {
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     max-width: 550px;
-    font-size: 17px;
-    line-height: 20px
+    font-size: 20px;
+    line-height: 23px;
 }
 
 .get-name {
@@ -39,11 +42,20 @@
     justify-content: space-between;
     padding-bottom: 30px;
 }
+
+.name-form label {
+    display: inline-block;
+    width: 47%;
+
+}
 .name-form input {
-    display: block;
+    display: inline-block;
+    width: 100%;
     padding:15px 35px;
     border-radius: 10px;
     background-color: silver;
+    border: none;
+    outline: none;
 }
 
 .get-in-touch .left-get textarea {
@@ -51,8 +63,11 @@
     height: 200px;
     border-radius: 10px;
     background-color: silver;
-    padding: 10px;
+    padding: 15px;
+    border: none;
+    outline: none;
 }
+
 .get-in-touch button {
     display: inline-block;
     margin: 20px 0 0;
@@ -60,8 +75,8 @@
     text-decoration: none;
     text-transform: capitalize;
     color: white;
-    border: 1px red;
-    background-color: red;
+    border: 1px var(--button-color);
+    background-color: var(--button-color);
     border-radius: 5px;
     cursor: pointer;
     width: 100%;
@@ -73,5 +88,5 @@
 
 .get-in-touch .right-get h3 {
     font-size: 25px;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
 }

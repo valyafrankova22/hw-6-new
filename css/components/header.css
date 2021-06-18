@@ -26,3 +26,27 @@ header ul li a:hover {
     color: white;
     background-color: var(--menu-bg-color);
 }
+
+header nav ul li ul.dropdown {
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+
+header nav ul.dropdown li {
+    background-color: var(--bg-black);
+}
+
+header nav ul.dropdown li a {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+header nav ul:not(.dropdown) li {
+    position: relative;
+}
+
+header nav ul li:hover ul.dropdown {
+    display: block;
+}

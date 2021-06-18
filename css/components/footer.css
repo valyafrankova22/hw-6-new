@@ -8,8 +8,14 @@ footer .left-footer p {
 
 footer .row {
     justify-content: space-between;
+    align-items: center;
 }
 
 .reference {
     display: flex;
+}
+
+.reference a {
+    display: inline-block;
+    padding-left: 10px;
 }

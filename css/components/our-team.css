@@ -1,16 +1,19 @@
 .our-team {
-    margin: 40px 0;
+    margin: 40px 0 60px;
+    padding-bottom: 50px;
 }
 .our-team .team-text p{
     font-size: 17px;
     line-height: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 30px;
     max-width: 500px;
 }
 
 .our-team h2 {
-    font-size: 35px;
-    padding-bottom: 15px;
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 30px;
+    text-transform: uppercase;
 }
 .team-text {
     margin-bottom: 50px;
@@ -42,11 +45,11 @@
     font-size: 30px;
     font-weight: 600;
     text-transform: uppercase;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 .team-right p {
     font-size: 17px;
-    line-height: 25px;
+    line-height: 20px;
     max-width: 500px;
     padding-bottom: 10px;
 }
@@ -82,7 +85,7 @@
 .redline-team {
     max-width: 150px;
     height: 5px;
-    background-color: red;
+    background-color: #ff3f40;
     border-radius: 15px;
 }
 
