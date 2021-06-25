@@ -6,6 +6,14 @@ header nav {
     background-color: var(--bg-black);
 }
 
+header label[for=menu-trigger] {
+    display: none;
+}
+
+header #menu-trigger {
+    display: none;
+}
+
 header ul {
     justify-content: center;
     list-style: none;

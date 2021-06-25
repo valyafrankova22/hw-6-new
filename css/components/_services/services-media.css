@@ -1,0 +1,43 @@
+@media (max-width: 992px) {
+
+    .services h2 {
+        font-size: 35px;
+        padding-bottom: 20px;
+    }
+
+    .services p {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 5px 0 10px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .services {
+        margin-bottom: 50px;
+    }
+
+    .services .row {
+        flex-direction: column;
+    }
+
+    .services .left-block,
+    .right-block {
+        width: 100%;
+    }
+
+    .services .left-block {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .services .left-block p {
+        padding: 5px 0 5px 0;
+    }
+
+    .services .right-block {
+        text-align: justify;
+    }
+
+}

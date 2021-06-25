@@ -1,0 +1,57 @@
+@media (max-width: 1200px) {
+    .business-card h1 {
+        font-size: 45px;
+        line-height: 60px;
+        margin-bottom: 30px;
+    }
+
+    .business-card p {
+        font-size: 16px;
+        line-height: 19px;
+        padding-bottom: 30px;
+        max-width: 450px;
+    }
+
+    .business-card .photo-right img {
+        height: 100%;
+    }
+}
+
+    @media (max-width: 992px) {
+    .business-card h1 {
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+
+    .business-card p {
+        font-size: 14px;
+        line-height: 17px;
+        padding-bottom: 20px;
+        max-width: 350px;
+    }
+
+    .business-card .photo-right img {
+        height: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .business-card .row {
+        flex-direction: column-reverse;
+    }
+
+    .business-card .info-left, .photo-right {
+        width: 100%;
+    }
+
+    .business-card .info-left {
+        text-align: center;
+    }
+
+    .business-card p {
+       max-width: 767px;
+    }
+
+}

@@ -1,0 +1,12 @@
+@media (max-width: 767px) {
+
+    .feautureproduct .item1 {
+        width: 50%;
+    }
+
+    .feautureproduct .menu2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

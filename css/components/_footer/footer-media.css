@@ -1,0 +1,11 @@
+@media (max-width: 767px) {
+
+    footer .row {
+        flex-direction: column-reverse;
+    }
+
+    footer .right-footer {
+        padding-bottom: 20px;
+    }
+    
+}

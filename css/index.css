@@ -1,11 +1,11 @@
 @import "common/index.css";
 
-@import "components/header.css";
-@import "components/business-card.css";
-@import "components/services.css";
-@import "components/feautureproduct.css";
-@import "components/our-team.css";
-@import "components/design-tips.css";
-@import "components/get-in-touch.css";
-@import "components/footer.css";
-@import "components/toTop.css";
+@import "components/_header/index.css";
+@import "components/_business-card/index.css";
+@import "components/_services/index.css";
+@import "components/_feautureproduct/index.css";
+@import "components/_our-team/index.css";
+@import "components/_design-tips/index.css";
+@import "components/_get-in-touch/index.css";
+@import "components/_footer/index.css";
+@import "components/_toTop/index.css";

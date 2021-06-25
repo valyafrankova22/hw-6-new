@@ -1,0 +1,42 @@
+@media (max-width: 992px) {
+
+    .our-team .row {
+        flex-direction: column;
+    }
+
+    .our-team h2, p {
+        text-align: center;
+    }
+
+    .our-team .team-text p {
+        max-width: 992px;
+    }
+
+    .our-team .redline-team {
+        margin: 0 auto;
+    }
+
+    .our-team .team-left,
+    .team-right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .our-team .team-left {
+        margin-bottom: 40px;
+    }
+
+    .our-team .team-left img {
+        width: 200px;
+        height: 250px;
+    }
+
+    .our-team .team-right p {
+        max-width: 767px;
+    }
+
+    .our-team .menu3 {
+        justify-content: center;
+    }
+
+}

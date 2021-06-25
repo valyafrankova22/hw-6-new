@@ -1,0 +1,13 @@
+@media (max-width: 767px) {
+
+    .design-tips .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .design-tips .email {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+}
